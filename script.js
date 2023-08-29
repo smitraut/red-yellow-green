@@ -21,7 +21,7 @@ const clearScores = () => {
     timesClicked.yellow = 0
     timesClicked.green = 0
     squares.forEach(square => {
-        square.innerText = 0
+        square.innerText = ''
     })
 
 }
